@@ -2,6 +2,7 @@
 
 cat /etc/hosts | while read ip dom
 do
+	echo "Numele meu este Mihnea"
 	echo "ip: $ip, dom: $dom"
 	if [ $ip == "#" ]
 	then
